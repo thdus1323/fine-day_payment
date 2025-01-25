@@ -1,0 +1,16 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.payment-btn{
+    background-color: #7ED957;
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+}

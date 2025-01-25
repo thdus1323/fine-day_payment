@@ -1,0 +1,85 @@
+.order-container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+}
+.product-image {
+    flex: 1;
+    max-width: 50%;
+}
+.product-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.order-details {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* 사진 높이와 맞춤 */
+    align-items: flex-start; /* 왼쪽 정렬 */
+    height: 100%; /* 높이를 이미지와 동일하게 */
+
+}
+
+.order-details h2{
+    font-size: 30px;
+    background: #FFDE59;
+    margin-bottom: 20px;
+}
+
+.order-details form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.order-details p {
+    margin: 10px 0;
+}
+
+.payment-submit-btn{
+    background-color: #7ED957;
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+}
+
+
+/*.order-details .quantity-control {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-top: 20px;*/
+/*    gap: 10px;*/
+/*}*/
+
+/*.quantity-control button {*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    font-size: 20px;*/
+/*    border: 1px solid #ddd;*/
+/*    background-color: #f9f9f9;*/
+/*    cursor: pointer;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*#quantity {*/
+/*    text-align: center;*/
+/*}*/
+
+.payment-submit-btn {
+    background-color: #7ED957;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: auto; /* 하단 배치 */
+    align-self: flex-end; /* 오른쪽 정렬 */
+}

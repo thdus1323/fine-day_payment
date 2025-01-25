@@ -1,0 +1,42 @@
+.login-container {
+    width: 600px;
+    height: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* 내부 요소를 세로 정렬 */
+    justify-content: space-between; /* 상하 간격을 최대화 */
+}
+
+h2{
+    margin-bottom: 20px;
+    text-align: center; /* 제목 가운데 정렬 */
+}
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+
+
+
+}
+.form-group input {
+    width: 100%; /* 입력 필드 양쪽 여백을 유지하면서 크기 설정 */
+    padding: 15px; /* 입력 칸 높이 증가 */
+    font-size: 20px; /* 글자 크기 키움 */
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.login-button {
+    width: 100%; /* 버튼 크기 */
+    padding: 15px; /* 버튼 높이 */
+    font-size: 20px; /* 버튼 글자 크기 */
+    background-color: #7ED957;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px; /* 버튼과 위의 입력 칸 사이 여백 */
+}

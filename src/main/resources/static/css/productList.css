@@ -107,6 +107,8 @@ body{
     margin-top: 20px;
 
 }
+
+
 .grid-box div span{
     position: relative;
 }
@@ -147,6 +149,9 @@ body{
     width: 350px;
     height: 30px;
     margin: 20px;
+    background-color: #7ED957;
+    border: none;
+    border-radius: 10px;
 }
 
 .grid-text{
