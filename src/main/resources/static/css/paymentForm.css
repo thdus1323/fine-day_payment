@@ -3,17 +3,20 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    gap: 20px;
+    gap: 30px;
 }
-.product-image {
-    flex: 1;
-    max-width: 50%;
+
+.payment-submit-btn{
+    background-color: #7ED957;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    width: 100%; /* 버튼 크기 조절 */
+    text-align: center;
 }
-.product-image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
+
 .order-details {
     flex: 1;
     max-width: 50%;
@@ -36,6 +39,20 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+}
+
+.quantity {
+    display: inline-block;
+    width: auto;
+    margin: 0; /* 버튼 간 여백 제거 */
+    text-align: center; /* 텍스트 정렬 */
+}
+
+.order-details form .quantity-container {
+    display: flex;
+    align-items: center; /* 수직 가운데 정렬 */
+    gap: 5px; /* 버튼과 입력 필드 간의 간격 */
+    margin-bottom: 10px; /* 아래 요소와의 간격 */
 }
 
 .order-details p {

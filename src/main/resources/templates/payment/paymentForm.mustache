@@ -4,23 +4,22 @@
 <div class="order-container">
     <div class="product-image">
         <div class="grid-img1 grid-img"></div>
+        <button  class="payment-submit-btn" type="submit">결제하기</button>
     </div>
     <div class="order-details">
         <h2>상품명</h2>
         <p>가격: 00원</p>
 
         <form method="post" action="/order">
-            <label>수량:</label>
-            <button type="button" onclick="changeQuantity(-1)">-</button>
-            <input type="number" id="quantity" name="quantity"
+            <div class="quantity-container">
+                <label>수량:</label>
+                <button  class="quantity" type="button" onclick="changeQuantity(-1)">-</button>
+                <input class="quantity" type="number" id="quantity" name="quantity"
                    value="1" min="1" style="width:50px" readonly>
-            <button type="button" onclick="changeQuantity(1)">+</button>
-
+                <button  class="quantity" type="button" onclick="changeQuantity(1)">+</button>
+            </div>
             <p>총 가격:  00원</p>
 
-            <button  class="payment-submit-btn" type="submit">
-                결제하기
-            </button>
         </form>
     </div>
 </div>
